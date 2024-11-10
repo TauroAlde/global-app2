@@ -1,0 +1,10 @@
+<div class="row1">
+   <div class="col1">
+    "Welcome to the app!"
+   </div>
+   <div class="col1-2">
+    <%= button_to session_path, data: {confirm: 'Are you sure?'}, method: :delete, class: 'style-button' do %>
+        Close Session
+    <% end %>
+   </div>
+</div>
